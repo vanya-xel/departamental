@@ -1,104 +1,178 @@
 {
   "store.home": {
     "blocks": [
-      "list-context.image-list#demo",
-      /* You can make references to blocks defined in other files.
-       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
-      "flex-layout.row#deals",
-      "__fold__",
-      "rich-text#shelf-title",
-      "flex-layout.row#shelf",
-      "info-card#home",
-      "rich-text#question",
-      "rich-text#link",
-      "newsletter"
+      "image#bannerHomePage",
+      "flex-layout.row#categories-btn",
+      "rich-text#mejor-seleccion",
+      "flex-layout.row#suggestion-row",
+      "flex-layout.row#categories-images1",
+      "flex-layout.row#categories-images2",
+      "rich-text#brands",
+      "flex-layout.row#brands",
+      "rich-text#imprescindibles",
+      "flex-layout.row#imprescindibles",
+      "flex-layout.row#categories-images3",
+      "flex-layout.row#categories-images4",
+      "rich-text#recommendation",
+      "flex-layout.row#recommendation",
+      "flex-layout.row#shipping-options"
     ]
   },
-
-  "list-context.image-list#demo": {
-    "children": ["slider-layout#demo-images"],
+  "flex-layout.row#categories-btn": {
     "props": {
-      "height": 570,
-      "preload": true,
-      "images": [
-        {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-desktop.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png"
-        },
-        {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration-mobile.png"
-        }
-      ]
+      "blockClass": "rowCategories"
+    },
+    "children": [
+      "image#pantallas",
+      "image#calzado-hombre",
+      "image#bolsas-mujer",
+      "image#bebes",
+      "image#calzado-deportivo",
+      "image#joyeria-relojes",
+      "image#muebles"
+    ]
+  },
+  "rich-text#mejor-seleccion": {
+    "props": {
+      "text": "LA MEJOR SELECCIÓN PARA TI",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-3"
     }
   },
-  "slider-layout#demo-images": {
+  "flex-layout.row#suggestion-row": {
     "props": {
-      "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "phone": 1
-      },
-      "infinite": true,
-      "showNavigationArrows": "desktopOnly",
-      "blockClass": "carousel"
+      "blockClass": "rowCategories"
+    },
+    "children": [
+      "image#ropa-cama",
+      "image#ropa-hombre",
+      "image#ropa-mujer",
+      "image#sets-perfumes",
+      "image#sets-joyeria"
+    ]
+  },
+  "flex-layout.row#categories-images1": {
+    "props": {
+      "blockClass": "rowCategories"
+    },
+    "children": [
+      "image#juguetes",
+      "image#michael-kors",
+      "image#colchones"
+    ]
+  },
+  "flex-layout.row#categories-images2": {
+    "props": {
+      "blockClass": "rowCategories"
+    },
+    "children": [
+      "image#gourmet",
+      "image#cocina",
+      "image#electrodomesticos"
+    ]
+  },
+  "rich-text#brands": {
+    "props": {
+      "text": "LAS MEJORES MARCAS",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-3"
     }
   },
-
-  "rich-text#shelf-title": {
+  "flex-layout.row#brands": {
     "props": {
-      "text": "## Summer",
-      "blockClass": "shelfTitle"
+      "blockClass": "rowCategories"
+    },
+    "children": [
+      "image#brand1",
+      "image#brand2",
+      "image#brand3",
+      "image#brand4",
+      "image#brand5"
+    ]
+  },
+  "rich-text#imprescindibles": {
+    "props": {
+      "text": "IMPRESCINDIBLES",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-3"
     }
   },
-  "flex-layout.row#shelf": {
-    "children": ["list-context.product-list#demo1"]
+  "flex-layout.row#imprescindibles": {
+    "children": [
+      "list-context.product-list#demo1"
+    ]
+  },
+  "flex-layout.row#categories-images3": {
+    "props": {
+      "blockClass": "rowCategories"
+    },
+    "children": [
+      "image#malone",
+      "image#labo",
+      "image#aldo"
+    ]
+  },
+  "flex-layout.row#categories-images4": {
+    "props": {
+      "blockClass": "rowCategories"
+    },
+    "children": [
+      "image#mango",
+      "image#epsilon",
+      "image#ralph"
+    ]
+  },
+  "rich-text#recommendation": {
+    "props": {
+      "text": "TE PUEDE INTERESAR",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-3"
+    }
+  },
+  "flex-layout.row#recommendation": {
+    "children": [
+      "list-context.product-list#demo1"
+    ]
+  },
+  "flex-layout.row#shipping-options": {
+    "props": {
+      "blockClass": "shippingOptions"
+    },
+    "children": [
+      "image#shipping"
+    ]
   },
   "list-context.product-list#demo1": {
-    "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#demo-products"],
-    "props": {
-      "orderBy": "OrderByTopSaleDESC"
-    }
+    "blocks": [
+      "product-summary.shelf#demo1"
+    ],
+    "children": [
+      "slider-layout#demo-products"
+    ]
+  },
+  "product-summary.shelf#demo1": {
+    "children": [
+      "product-summary-name",
+      "product-summary-image",
+      "product-summary-price",
+      "product-summary-sku-selector"
+        ]
   },
   "slider-layout#demo-products": {
     "props": {
       "itemsPerPage": {
         "desktop": 4,
-        "tablet": 3,
-        "phone": 1
+        "tablet": 4,
+        "phone": 2
       },
       "infinite": true,
-      "fullWidth": false,
-      "blockClass": "shelf"
-    }
-  },
-
-  "info-card#home": {
-    "props": {
-      "id": "info-card-home",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
-      "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-home",
-      "textAlignment": "center"
-    }
-  },
-
-  "rich-text#question": {
-    "props": {
-      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
-      "blockClass": "question"
-    }
-  },
-
-  "rich-text#link": {
-    "props": {
-      "text": "\n**Reach us at**\nwww.vtex.com.br",
-      "blockClass": "link"
-    }
+      "showNavigationArrows": "never",
+      "blockClass": "carousel",
+      "showPaginationDots": "never"
+        }
   }
 }
