@@ -1,0 +1,188 @@
+{
+    "image#bannerHomePage": {
+        "props": {
+            "src": "https://departamental.vteximg.com.br/arquivos/1.png",
+            "blockClass": "slider"
+        }
+    },
+    "image#pantallas": {
+        "props": {
+            "src": "https://departamental.vteximg.com.br/arquivos/2.png",
+            "blockClass": "imgCategory1"
+        }
+    },
+    "image#calzado-hombre": {
+        "props": {
+            "src": "https://departamental.vteximg.com.br/arquivos/3.png",
+            "blockClass": "imgCategory1"
+        }
+    },
+    "image#bolsas-mujer": {
+        "props": {
+            "src": "https://departamental.vteximg.com.br/arquivos/4.png",
+            "blockClass": "imgCategory1"
+        }
+    },
+    "image#bebes": {
+        "props": {
+            "src": "https://departamental.vteximg.com.br/arquivos/5.png",
+            "blockClass": "imgCategory1"
+        }
+    },
+    "image#calzado-deportivo": {
+        "props": {
+            "src": "https://departamental.vteximg.com.br/arquivos/6.png",
+            "blockClass": "imgCategory1"
+        }
+    },
+    "image#joyeria-relojes": {
+        "props": {
+            "src": "https://departamental.vteximg.com.br/arquivos/7.png",
+            "blockClass": "imgCategory1"
+        }
+    },
+    "image#muebles": {
+        "props": {
+            "src": "https://departamental.vteximg.com.br/arquivos/8.png",
+            "blockClass": "imgCategory1"
+        }
+    },
+    "image#ropa-cama": {
+        "props": {
+            "src": "https://departamental.vteximg.com.br/arquivos/9.png",
+            "blockClass": "imgCategory2"
+        }
+    },
+    "image#ropa-hombre": {
+        "props": {
+            "src": "https://departamental.vteximg.com.br/arquivos/10.png",
+            "blockClass": "imgCategory2"
+        }
+    },
+    "image#ropa-mujer": {
+        "props": {
+            "src": "https://departamental.vteximg.com.br/arquivos/13.png",
+            "blockClass": "imgCategory2"
+        }
+    },
+    "image#sets-perfumes": {
+        "props": {
+            "src": "https://departamental.vteximg.com.br/arquivos/11.png",
+            "blockClass": "imgCategory2"
+        }
+    },
+    "image#sets-joyeria": {
+        "props": {
+            "src": "https://departamental.vteximg.com.br/arquivos/12.png",
+            "blockClass": "imgCategory2"
+        }
+    },
+    "image#juguetes": {
+        "props": {
+            "src": "https://departamental.vteximg.com.br/arquivos/14.png",
+            "blockClass": "imgCategory3"
+        }
+    },
+    "image#michael-kors": {
+        "props": {
+            "src": "https://departamental.vteximg.com.br/arquivos/15.png",
+            "blockClass": "imgCategory3"
+        }
+    },
+    "image#colchones": {
+        "props": {
+            "src": "https://departamental.vteximg.com.br/arquivos/16.png",
+            "blockClass": "imgCategory3"
+        }
+    },
+    "image#gourmet": {
+        "props": {
+            "src": "https://departamental.vteximg.com.br/arquivos/17.png",
+            "blockClass": "imgCategory3"
+        }
+    },
+    "image#cocina": {
+        "props": {
+            "src": "https://departamental.vteximg.com.br/arquivos/18.png",
+            "blockClass": "imgCategory3"
+        }
+    },
+    "image#electrodomesticos": {
+        "props": {
+            "src": "https://departamental.vteximg.com.br/arquivos/19.png",
+            "blockClass": "imgCategory3"
+        }
+    },
+    "image#brand1": {
+        "props": {
+            "src": "https://departamental.vteximg.com.br/arquivos/26.png",
+            "blockClass": "imgCategory"
+        }
+    },
+    "image#brand2": {
+        "props": {
+            "src": "https://departamental.vteximg.com.br/arquivos/27.png",
+            "blockClass": "imgCategory"
+        }
+    },
+    "image#brand3": {
+        "props": {
+            "src": "https://departamental.vteximg.com.br/arquivos/28.png",
+            "blockClass": "imgCategory"
+        }
+    },
+    "image#brand4": {
+        "props": {
+            "src": "https://departamental.vteximg.com.br/arquivos/29.png",
+            "blockClass": "imgCategory"
+        }
+    },
+    "image#brand5": {
+        "props": {
+            "src": "https://departamental.vteximg.com.br/arquivos/30.png",
+            "blockClass": "imgCategory"
+        }
+    },
+    "image#malone": {
+        "props": {
+            "src": "https://departamental.vteximg.com.br/arquivos/20.png",
+            "blockClass": "imgCategory3"
+        }
+    },
+    "image#labo": {
+        "props": {
+            "src": "https://departamental.vteximg.com.br/arquivos/21.png",
+            "blockClass": "imgCategory3"
+        }
+    },
+    "image#aldo": {
+        "props": {
+            "src": "https://departamental.vteximg.com.br/arquivos/22.png",
+            "blockClass": "imgCategory3"
+        }
+    },
+    "image#mango": {
+        "props": {
+            "src": "https://departamental.vteximg.com.br/arquivos/23.png",
+            "blockClass": "imgCategory3"
+        }
+    },
+    "image#epsilon": {
+        "props": {
+            "src": "https://departamental.vteximg.com.br/arquivos/24.png",
+            "blockClass": "imgCategory3"
+        }
+    },
+    "image#ralph": {
+        "props": {
+            "src": "https://departamental.vteximg.com.br/arquivos/25.png",
+            "blockClass": "imgCategory3"
+        }
+    },
+    "image#shipping":{
+        "props": {
+            "src": "https://departamental.vteximg.com.br/arquivos/31.png",
+            "blockClass": "imgCategory4"
+        }
+    }
+}
